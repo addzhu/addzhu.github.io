@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YuTong Zhu - Personal Website</title>
+    <style>
+        /* 这里的代码是用来控制网站“长什么样”的（颜色、字体、排版） */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #fdfdfd;
+        }
+        /* 顶部导航栏样式 */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            background-color: #fff;
+            border-bottom: 1px solid #eaeaea;
+        }
+        header a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.1em;
+        }
+        .logo { font-weight: bold; font-size: 1.3em; }
+        .nav-links a {
+            margin-left: 25px;
+            font-weight: 500;
+        }
+        .nav-links a:hover { color: #007bff; }
+        
+        /* 网页主体内容样式 */
+        .container {
+            max-width: 700px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+        h1 { font-size: 2.2em; margin-bottom: 5px; }
+        .subtitle {
+            font-size: 1.1em;
+            color: #777;
+            margin-bottom: 40px;
+            font-weight: 500;
+        }
+        p { font-size: 1.05em; margin-bottom: 20px; }
+        .container a { color: #007bff; text-decoration: none; }
+        .container a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<!-- 这是顶部的导航栏 -->
+<header>
+    <div><a href="#" class="logo">YuTong Zhu</a></div>
+    <div class="nav-links">
+        <a href="#">About</a>
+        <a href="#">Resume</a>
+        <a href="https://github.com/addzhu" target="_blank">GitHub</a>
+    </div>
+</header>
+
+<!-- 这是网页中间的文字内容 -->
+<div class="container">
+    <h1>YuTong Zhu</h1>
+    <div class="subtitle">Student at [你的大学] | [你的专业]</div>
+
+    <h2>About</h2>
+    <p>Hello, I am YuTong Zhu! I am currently studying at [你的大学]. I am highly interested in [你的兴趣领域，比如人工智能、软件开发等]. </p>
+    
+    <p>My main programming languages are [你熟悉的语言，比如 Python, Java, C++]. You can see some of my projects on my <a href="https://github.com/addzhu" target="_blank">GitHub</a>.</p>
+
+    <p>Programming is one of my passions, but I have other hobbies too. In my free time, I like to [写点你的爱好，比如摄影、看书、打篮球等]. </p>
+</div>
+
+</body>
+</html>
