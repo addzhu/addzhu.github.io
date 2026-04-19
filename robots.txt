@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://addzhu.github.io/sitemap.xml   # 如果你以后加了 sitemap 可以加上这行，目前没有也可以先不加
