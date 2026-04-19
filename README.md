@@ -1,4 +1,3 @@
-# addzhu.github.io
 # YuTong Zhu
 
 Welcome to my personal website! 
