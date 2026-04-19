@@ -1,4 +1,3 @@
-# YuTong Zhu
 
 Welcome to my personal website! 
 
